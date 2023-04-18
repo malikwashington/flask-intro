@@ -42,9 +42,9 @@ def say_hello():
         <form action="/greet">
           What's your name? <input type="text" name="person" required>
           <label for='compliments'> Choose Wisely: </label>
-          <select required name='compliments' id='compliments">
-            <option value='Cool'>Cool</option>
+          <select required name='compliments' id='compliments'>
             <option value='' selected disabled> Pick Your Poison </option>
+            <option value='Cool'>Cool</option>
             <option value='Awesome'>Awesome</option>
             <option value='Terrific'>Terrific</option>
             <option value='Interesting'>Interesting</option>
